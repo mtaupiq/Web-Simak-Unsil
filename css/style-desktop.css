@@ -56,7 +56,10 @@
 
 			header > p
 			{
-				margin: 0.5em 0 0 0;
+				margin: 0;
+				font-size: 1em;
+				line-height: normal;
+				text-align: justify
 			}
 
 	/* Button */
@@ -236,13 +239,13 @@
 	
 	/* Me */
 	
-		#home
+		#me
 		{
 			padding: 0;
-			height: 20em;
+			height: 10em;
 		}
 		
-			#home .pic
+			#me .pic
 			{
 				display: block;
 				position: absolute;
@@ -252,14 +255,14 @@
 				text-decoration: none;
 			}
 			
-				#home .pic img
+				#me .pic img
 				{
 					position: relative;
 					display: block;
 					height: 100%;
 				}
 			
-				#home .pic .arrow
+				#me .pic .arrow
 				{
 					display: block;
 					position: absolute;
@@ -282,26 +285,26 @@
 					transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 				}
 
-					#home .pic .arrow:before
+					#me .pic .arrow:before
 					{
 						position: relative;
 						padding-right: 0;
 						top: 0.125em;
 					}
 			
-					#home .pic .arrow span
+					#me .pic .arrow span
 					{
 						display: block;
 						text-indent: -9999px;
 					}
 				
-					#home .pic:hover .arrow
+					#me .pic:hover .arrow
 					{
 						width: 3em;
 						padding-right: 0.25em;
 					}
 			
-			#home header
+			#me header
 			{
 				position: absolute;
 				left: 0;
@@ -311,7 +314,7 @@
 				margin-left: 2.5em;
 			}
 			
-				#home header > h1
+				#me header > h1
 				{
 					position: absolute;
 					left: 0;
@@ -319,7 +322,7 @@
 					margin: 0;
 				}
 			
-				#home header > p 
+				#me header > p 
 				{
 					position: absolute;
 					left: 0;
