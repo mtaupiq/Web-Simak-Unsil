@@ -92,7 +92,7 @@
 	
 	small
 	{
-		font-size: 0.5em;
+		font-size: 0.6em;
 	}
 	
 	pre {
@@ -357,6 +357,7 @@
 			ul.default li
 			{
 				padding-left: 0.5em;
+				text-align: justify;
 			}
 			
 		ul.actions
@@ -373,6 +374,23 @@
 				{
 					margin-left: 0;
 				}
+				
+		ul > li > a
+		{
+			text-decoration: none;
+			color: #000;
+			color: rgba(0,0,0,0.65);
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+			-o-transition: color .25s ease-in-out;
+			-ms-transition: color .25s ease-in-out;
+			transition: color .25s ease-in-out;
+		}
+		
+		ul > li > a:hover
+		{
+			color: #333;
+		}
 		
 		ol.default
 		{
