@@ -1,7 +1,6 @@
 Tugas Pemrograman Internet Web-Simak-Unsil
 ==========================================
 Desain Web Simak Unsil<br>
-Kelompok 1<br>
 Teknik Informatika G 2013<br>
 Kelompok 1 <br>
 137006253 Fajar Faisal Surya<br>
